@@ -13,7 +13,7 @@ const RightWr = () => {
     <input type='text' placeholder="  Electronically signed the agrement(s)"
       class='py-2 rounded-md w-11/12 shadow-md text-blue-400 focus:border-2 focus:border-blue-400 outline-none mr-2'
     />
-    <img src={require("..//assests/rightt.jpg")} class='h-6 w-6 absolute right-[6rem] md:right-1/3 ' alt='tick'/>
+    <img src={require("..//assests/rightt.jpg")} class='h-6 w-6 absolute right-[7rem] md:right-1/3 ' alt='tick'/>
     <button class='bg-indigo-400 p-2 rounded-lg hover:shadow-lg '>
       <img src={require("..//assests/right-arrow.png")} class='h-6 w-6 ' alt=''/>
     </button>
@@ -23,7 +23,7 @@ const RightWr = () => {
     <input type='text' placeholder="  Non adult beverage Kroger market supplier wavier and release"
       class='py-2 rounded-md w-11/12 shadow-md text-blue-400 focus:border-2 focus:border-blue-400 outline-none mr-2'
     />
-    <img src={require("..//assests/wrong.jpg")} class='h-6 w-6 absolute right-[6rem] md:right-1/3 ' alt='tick'/>
+    <img src={require("..//assests/wrong.jpg")} class='h-6 w-6 absolute right-[7rem] md:right-1/3 ' alt='tick'/>
     <button class='bg-indigo-400 p-2 rounded-lg hover:shadow-lg '>
       <img src={require("..//assests/right-arrow.png")} class='h-6 w-6 ' alt=''/>
     </button>
