@@ -10,7 +10,8 @@ const Main = () => {
         <form className=''>
 
         <Slides />
-        <Profile />
+        <Profile step="Step 1" profile="Your Profile" des="Enter the login information for your account. You will
+            be able to create additional users after registering." />
 
         <div className='px-44 py-8'>
 
