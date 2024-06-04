@@ -13,13 +13,13 @@ const routing = createBrowserRouter([
    element: <Main />
   },
   {
-      path: '/2',
+      path: '/2', 
       element: <Part2 />
   }
 ])
 function App() {
   return (
-    <div className='px-64 bg-gradient-to-b from-indigo-400 to-white w-screen h-screen'>
+    <div className='px-8 md:px-64 bg-gradient-to-b from-indigo-400 to-white w-screen h-screen'>
         <Header />
         <RouterProvider router={routing}/>
         <Footer />

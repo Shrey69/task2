@@ -12,8 +12,8 @@ const Main2 = () => {
         <Slides2 />
         <Profile step="Step 2" profile="Business Information" des="Please, enter information about your company." />
 
-        <div className='px-44 py-8'>
-        <p className='text-blue-400 text-lg'>General Information</p>
+        <div className=' px-8 md:px-44 py-8'>
+        <p className='text-blue-400 font-medium  text-lg'>General Information</p>
        <Input name1 = "Brand Name*" ph1="    Input Your Brand Name"  name2 = "Brand Type*" ph2="    Select type of your brand"/>
        <Input name1 = "Street Address*" ph1="    Input Your Street Address"  name2 = "City*" ph2="    Input City"/>
        <Input name1 = "Zip Code*" ph1="    Input Zip Code"  name2 = "Tax ID number*" ph2="    Input Tax ID Number"/>

@@ -6,15 +6,15 @@ const Slides = () => {
     <div>
        <div className='flex text-slate-400 justify-between bg-slate-200'>
        <Link to={"/"}>
-        <button className='flex  p-8 px-24 text-xl text-white bg-blue-400 rounded-r-full shadow-lg'>
+        <button className='flex font-medium p-2 md:p-8 px-10 md:px-24 text-lg md:text-xl text-white bg-blue-400 rounded-r-full shadow-lg'>
         <PiNumberSquareOneFill size={28} />
             Your Profile</button></Link>
             <Link to={"/2"}>
-         <button className='flex p-4 m-4 text-xl'>
+         <button className='flex font-medium p-2 md:p-4 md:m-4 text-lg md:text-xl'>
         <PiNumberSquareTwoFill size={28} /> 
             Business Information</button></Link>
 
-        <button className='flex p-4 m-4 text-xl'>
+        <button className='flex font-medium p-2 md:p-4 md:m-4 text-lg md:text-xl'>
         <PiNumberSquareThreeFill size={28}/>
             Additional Users</button>
         </div>
